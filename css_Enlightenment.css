@@ -1,10 +1,25 @@
 /* css dokument - RÖR BARA DINA EGNA SAKER */
 
+*{
+  margin: 0;
+  padding: 0;
+}
 
-.nav{
+.Nav{
   text-decoration: none;
-  margin:auto;
+  text-align: center;
   width: 100vw;
   height: 10vh;
   background-color: red;
+}
+
+.Content{
+  background-color: green;
+  width: 70vw;
+  margin: auto;
+  height: 100%;
+}
+
+#Header{
+
 }
