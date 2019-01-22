@@ -1,1 +1,10 @@
 /* css dokument - RÖR BARA DINA EGNA SAKER */
+
+
+.nav{
+  text-decoration: none;
+  margin:auto;
+  width: 100vw;
+  height: 10vh;
+  background-color: red;
+}
