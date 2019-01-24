@@ -28,8 +28,11 @@
   margin-top: 1px;
 
 }
-#idk{
-
+#idk a{
+background-color: blue;
+color: blue;
+text-decoration: none;
+display:inline-block;
 }
 
 .divbody {
