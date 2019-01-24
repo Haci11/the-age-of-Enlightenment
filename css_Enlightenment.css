@@ -6,7 +6,6 @@
 }
 
 .Nav{
-  text-decoration: none;
   text-align: center;
   width: 100vw;
   height: 10vh;
@@ -26,5 +25,8 @@
 
 #Inledning{
   margin-top: 1px;
+
+}
+#idk{
 
 }
