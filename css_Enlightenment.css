@@ -15,11 +15,17 @@
 
 .Content{
   background-color: green;
-  width: 70vw;
+  
   margin: auto;
   height: 100%;
+  max-width: 70vw;
 }
 
-#Header{
+#Header h1{
+ text-align: center;
+}
+
+#Inledning{
+  margin-top: 1px;
 
 }
