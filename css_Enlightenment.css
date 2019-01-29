@@ -1,16 +1,8 @@
 /* css dokument - RÖR BARA DINA EGNA SAKER */
-
+/* Hacis del*/
 *{
   margin: 0;
   padding: 0;
-}
-
-.top{
-  position: absolute;
-  text-align: center;
-  width: 100vw;
-  height: 10vh;
-  background-color: red;
 }
 
 .Content{
