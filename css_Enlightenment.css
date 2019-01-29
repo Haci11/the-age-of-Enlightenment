@@ -36,26 +36,29 @@ display:inline-block;
 }
 /*färgerna ska bytas när sidan e typ klar så att det passar in//Jorge.*/
 .Nav{
-  overflow: hidden;
-  background-color: yellow;
-  position: fixed;
-  top: 0;
-  width: 100%;
+background: black;
+width: 100vw;
+border-bottom: 10px solid grey;
+box-shadow: 3px 0px 5px grey;
+text-align: center;
+padding: 1px;
+position: fixed;
 }
-.Nav a{
-  float: center;
+ul li{
   display: inline-block;
-  color: purple;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  list-style-type: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  transition: 1s;
 }
-.Nav a:hover{
-  background: black;
-  color: red;
+ul li:hover{
+  background: grey;
+  font-weight: bold;
 }
 /*Om vi vill ha annars kan man ta bort.*/
-.Nav a:active{
+ul li:active{
   background-color: red;
   color: black;
 }
