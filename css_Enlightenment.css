@@ -6,10 +6,13 @@
 }
 
 .Content{
-  background-color: green;
   margin: auto;
   height: 100%;
   max-width: 70vw;
+  background-color: red;
+}
+.Content background{
+  opacity: 0.5;
 }
 
 #Header h1{
