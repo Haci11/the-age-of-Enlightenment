@@ -41,7 +41,7 @@ width: 100vw;
 border-bottom: 10px solid grey;
 box-shadow: 3px 0px 5px grey;
 text-align: center;
-padding: 1px;
+padding: 0.5px;
 position: fixed;
 }
 ul li{
