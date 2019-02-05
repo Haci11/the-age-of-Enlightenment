@@ -62,3 +62,48 @@ ul li:active{
   background-color: red;
   color: black;
 }
+
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 10vw;
+  background-color: #142;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 0;
+  position: inherit;
+  z-index: 1;
+  bottom: 5vh;
+  left: -42vw;
+  height: 20vh;
+  float: left;
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
