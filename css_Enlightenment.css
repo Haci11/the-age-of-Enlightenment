@@ -9,25 +9,31 @@
   margin: auto;
   height: 100%;
   max-width: 70vw;
-  background-color: red;
-}
-.Content background{
-  opacity: 0.5;
+  padding: 2px;
 }
 
 #Header h1{
  text-align: center;
+ background-color: white;
+ padding: 20px;
+ margin-bottom: 25px;
 }
 
-#Inledning{
-  margin-top: 1px;
-
+#text{
+  background-color: white;
+  margin-bottom: 25px;
 }
-#idk a{
-background-color: blue;
-color: blue;
-text-decoration: none;
-display:inline-block;
+#text1{
+  background-color: white;
+  margin-bottom: 25px;
+}
+#text2{
+  background-color: white;
+  margin-bottom: 25px;
+}
+#text3{
+  background-color: white;
+  margin-bottom: 25px;
 }
 
 .divbody {
@@ -41,9 +47,10 @@ width: 100vw;
 border-bottom: 10px solid grey;
 box-shadow: 3px 0px 5px grey;
 text-align: center;
-padding: 1px;
+padding: 0.5px;
 position: fixed;
 }
+
 ul li{
   display: inline-block;
   list-style-type: none;
@@ -53,6 +60,7 @@ ul li{
   font-family: sans-serif;
   transition: 1s;
 }
+
 ul li:hover{
   background: grey;
   font-weight: bold;
@@ -62,8 +70,50 @@ ul li:active{
   background-color: red;
   color: black;
 }
-.Content{
-  margin-top: 30px;
+
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 10vw;
+  background-color: #142;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 0;
+  position: inherit;
+  z-index: 1;
+  bottom: 5vh;
+  left: -42vw;
+  height: 20vh;
+  float: left;
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }
 
 .Footer{
