@@ -9,25 +9,31 @@
   margin: auto;
   height: 100%;
   max-width: 70vw;
-  background-color: white;
-}
-.Content background{
-  opacity: 0.5;
+  padding: 2px;
 }
 
 #Header h1{
  text-align: center;
+ background-color: white;
+ padding: 20px;
+ margin-bottom: 25px;
 }
 
-#Inledning{
-  margin-top: 1px;
-
+#text{
+  background-color: white;
+  margin-bottom: 25px;
 }
-#idk a{
-background-color: blue;
-color: blue;
-text-decoration: none;
-display:inline-block;
+#text1{
+  background-color: white;
+  margin-bottom: 25px;
+}
+#text2{
+  background-color: white;
+  margin-bottom: 25px;
+}
+#text3{
+  background-color: white;
+  margin-bottom: 25px;
 }
 
 .divbody {
@@ -44,6 +50,7 @@ text-align: center;
 padding: 0.5px;
 position: fixed;
 }
+
 ul li{
   display: inline-block;
   list-style-type: none;
@@ -53,6 +60,7 @@ ul li{
   font-family: sans-serif;
   transition: 1s;
 }
+
 ul li:hover{
   background: grey;
   font-weight: bold;
