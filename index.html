@@ -13,6 +13,20 @@
         });
     </script>
   -->
+  <script>
+  // When the user clicks on div, open the popup
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+    var variable = true;
+    var popup = document.getElementById("myPopup");
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+      popup.classList.toggle("show");
+      variable = false;
+    } else {
+      document.getElementById("myP").className = "";
+    }
+  }
+  </script>
   </head>
   <body>
       <div class="Nav">
