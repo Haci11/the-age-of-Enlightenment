@@ -40,8 +40,9 @@
 
 .divbody {
   background-attachment: fixed;
-  background-image: url("skola.img");
+  background-image: url("schoole.jpg");
 }
+
 /*färgerna ska bytas när sidan e typ klar så att det passar in//Jorge.*/
 .Nav{
 background: black;
