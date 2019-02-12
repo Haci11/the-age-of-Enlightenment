@@ -19,24 +19,16 @@
  background-color: white;
  padding: 20px;
  margin-bottom: 25px;
+background: rgba(255,255,255,0.5);
 }
 
-#text{
+
+.text{
   background-color: white;
   margin-bottom: 25px;
+  background: rgba(255,255,255,0.5);
 }
-#text1{
-  background-color: white;
-  margin-bottom: 25px;
-}
-#text2{
-  background-color: white;
-  margin-bottom: 25px;
-}
-#text3{
-  background-color: white;
-  margin-bottom: 25px;
-}
+
 
 .divbody {
   background-attachment: fixed;
