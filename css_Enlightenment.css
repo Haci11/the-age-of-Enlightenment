@@ -54,8 +54,8 @@ ul li{
 
 ul li:hover{
   background: grey;
-  font-weight: bold;
 }
+
 /*Om vi vill ha annars kan man ta bort.*/
 ul li:active{
   background-color: red;
