@@ -18,44 +18,19 @@
 
 #Header h1{
  text-align: center;
- background-color: white;
  padding: 20px;
  margin-bottom: 25px;
-background: rgba(255,255,255,0.5);
+background: rgba(255,255,240,0.65);
+}
+.texter{
+  margin-bottom: 25px;
+  background: rgba(255,255,240,0.65);
 }
 
-
-
-#text1{
-  background-color: white;
-  margin-bottom: 25px;
-  background: rgba(255,255,255,0.5);
-}
-#text2{
-  background-color: white;
-  margin-bottom: 25px;
-  background: rgba(255,255,255,0.5);
-}
-#text3{
-  background-color: white;
-  margin-bottom: 25px;
-  background: rgba(255,255,255,0.5);
-}
-#text4{
-  background-color: white;
-  margin-bottom: 25px;
-  background: rgba(255,255,255,0.5);
-}
-#text5{
-  background-color: white;
-  margin-bottom: 25px;
-  background: rgba(255,255,255,0.5);
-}
-.divbody {
+body{
   background-attachment: fixed;
-  background-image: url("schoole.jpg");
+  background-image:url("schoole.jpg");
 }
-
 /*färgerna ska bytas när sidan e typ klar så att det passar in//Jorge.*/
 .Nav{
 background: black;
