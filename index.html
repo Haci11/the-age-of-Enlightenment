@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- hjälp -->
 <html lang="sv">
   <head>
     <link rel="stylesheet" href="css_Enlightenment.css">
@@ -8,62 +7,55 @@
     <title>The age of enlightenment</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-        $.get('enterfilenamehere.txt', function(data) {
-            document.getElementById("text1").innerHTML = data;
+        $.get('text.txt', function(data) {
+            document.getElementById("text").innerHTML = data;
         });
     </script>
-
   </head>
   <body>
-      <div class="Nav">
-        <ul>
-          <li><a href="#Del1"></a>Länk1</li>
-          <li><a href="#Del2"></a>Länk2</li>
-          <li><a href="#"></a>Länk3</li>
-          <li><a href="#"></a>Länk4</li>
-          <li><a href="#"></a>Länk5</li>
-          <li><a href="#"></a>Länk6</li>
-        </ul>
-      </div>
-
-    <div class="divbody">
-
-<div class="Content">
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-        <div id="Header">
-          <h1>The Age of Enlightenment</h1>
-        </div>
-
-        <div id="text1">
-          <h1> <a name="Del1">Del 1</a> </h1>
-          <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
-        </div>
-
-        <div id="text2">
-          <h1> <a name="Del2"> Del 2 </a> </h1>
-        </div>
-
-        <div id="text3">
-          <h1><a name="Del3"> del 3 </a></h1>
-        </div>
-        <div id="text4">
-          <h1><a name="Del4"> del 4 </a></h1>
-        </div>
-
-        <div id="text5">
-          <h1><a name="Del5"> del 5 </a></h1>
-        </div>
-
-
-    <div class="Footer">
-      <h1>DAmn</h1>
+    <div class="Nav">
+      <ul>
+        <li><a href="#Del1"></a>Länk1</li>
+        <li><a href="#Del2"></a>Länk2</li>
+        <li><a href="#"></a>Länk3</li>
+        <li><a href="#"></a>Länk4</li>
+        <li><a href="#"></a>Länk5</li>
+        <li><a href="#"></a>Länk6</li>
+      </ul>
     </div>
 
-</div>
-</div>
+    <div class="Content">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="Header">
+        <h1>The Age of Enlightenment</h1>
+      </div>
+
+      <div id="text1" class="texter">
+        <h1> <a name="Del1">Del 1</a> </h1>
+      </div>
+
+      <div id="text2" class="texter">
+        <h1> <a name="Del2"> Del 2 </a> </h1>
+      </div>
+
+      <div id="text3" class="texter">
+        <h1><a name="Del3"> del 3 </a></h1>
+      </div>
+
+      <div id="text4" class="texter">
+        <h1><a name="Del4"> del 4 </a></h1>
+      </div>
+
+      <div id="text5" class="texter">
+        <h1><a name="Del5"> del 5 </a></h1>
+      </div>
+      <div class="Footer">
+        <h1>Footer</h1>
+      </div>
+    </div>
   </body>
 </html>
